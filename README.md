@@ -1,1 +1,3 @@
-# NASM-and-C
+# Comparativo de tempo de execução entre NASM e C
+Este git apresenta exemplos de scripts em NASM e C em suas respectivas pastas. Ambos os scripts atuam na chamada de sistema SYS_FORK, gerando um processo pai e um processo filho, no qual, cada processo retorna ao usuário um print, identificando-se como "Processo pai" ou "Processo filho". O objetivo deste exercício é a comparação da velocidade de execução de duas diferentes linguagens de programação em uma mesma tarefa, onde cada script foi executado mil vezes, tendo seu tempo salvo pelo Time, comando do linux bash. 
+Ao final das mil execuções, os dados foram tratados e utilizados no desenvolvimento das contas de média, desvio padrão e intervalo de confiança para script
